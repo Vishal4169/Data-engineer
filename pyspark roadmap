@@ -1,0 +1,49 @@
+Real-World Learning Roadmap
+
+Phase 1 – Basics
+
+✔ SparkSession
+✔ DataFrame creation
+✔ select, filter, withColumn
+✔ groupBy, agg
+
+Phase 2 – Intermediate
+
+✔ Joins
+✔ SQL
+✔ Window functions
+✔ File handling
+
+Phase 3 – Advanced
+
+✔ Performance tuning
+✔ Partitioning
+✔ Caching
+✔ UDF vs Built-in functions
+✔ Spark ML
+
+🧠 Best Practice Tips
+
+Always use built-in functions instead of UDF when possible
+
+1.Understand lazy evaluation
+
+2.Check .explain() for optimization
+
+3.Avoid too many collect() calls
+
+4.Understand partitions for performance
+
+-->Need to learn next
+
+✅ 30-day structured PySpark practice plan
+
+✅ Real-world project examples (ETL pipeline, log processing, etc.)
+
+✅ PySpark interview questions (Basic → Advanced)
+
+✅ Hands-on mini project step-by-step
+
+
+
+
