@@ -1,3 +1,24 @@
 STEP 1: Setup & SparkSession (Beginner)
 
 Install PySpark: pip install pyspark
+
+STEP 2: Create SparkSession
+
+SparkSession is the entry point of PySpark.
+
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder \
+    .appName("PySpark Basics") \
+    .getOrCreate()
+
+print("Spark Version:", spark.version)
+
+
+Explanation:
+
+SparkSession.builder → builds Spark app
+
+.appName() → name of your application
+
+.getOrCreate() → creates new session or uses existing one
